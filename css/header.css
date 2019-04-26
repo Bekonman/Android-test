@@ -1,0 +1,80 @@
+/*头部*/
+.header{
+    position: fixed;
+    width: 100%;
+    height: 1.05rem;
+    padding:.17rem 0;
+    background: #fece02;
+    box-sizing: border-box;
+    z-index: 40;
+}
+.header .container{
+    margin: 0 auto;
+    height: 0.69rem;
+    width: 7.17rem;
+}
+.header .container .logo,.header .container .search,.header .container .sm,.header .container .massage{
+    float: left;
+}
+/* logo */
+.header .container .logo,.header .container .logo img{
+    width: .64rem;
+    height: .68rem;
+}
+.header .container .logo{
+    padding:0 .48rem 0 .2rem;
+}
+.header .container .logo a{
+    display: block;
+    font-size: 0rem;
+}
+
+/*搜索框*/
+.header .container .search{
+    width: 4.3rem;
+    height: .68rem;
+    border-radius: .32rem;
+    background: rgba(255,255,255,.5);
+}
+.header .container .search .find,.header .container .search input{
+    float: left;
+    margin:.17rem 0 0 .22rem;
+}
+.header .container .search img{
+    width: .38rem;
+    height: .37rem;
+}
+.header .container .search input{
+    width: 3.14rem;
+    height: .30rem;
+    background: rgba(255,255,255,0);
+    border:none;
+}
+.header .container .search input,.header .container .search input::-webkit-input-placeholder{
+    font-size: .30rem;
+    color: #fff5c9;
+
+}
+/*二维码框*//*消息铃声*/
+.header .container .sm,.header .container .massage{
+    margin:.13rem .12rem 0 .20rem;
+}
+.header .container .sm{
+    padding:0.01rem 0;
+}
+.header .container .sm a,.header .container .massage a{
+    display: block;
+    font-size: 0;
+}
+.header .container .sm img{
+    width: .44rem;
+    height: .39rem;
+}
+.header .container .massage img{
+    width: .39rem;
+    height: .43rem;
+}
+/*使header在文本流中有个位置，不让它与后面div重叠*/
+.none{
+    height: 1.05rem;
+}

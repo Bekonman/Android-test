@@ -1,0 +1,87 @@
+.content{
+    position: relative;
+    background-color: #f8f8f8;
+    width: 100%;
+}
+.content .banner img{
+    width: 100%;
+}
+.content .container{
+    position: relative;
+    padding-bottom: .15rem;
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+}
+.content .container figure{
+    text-align: center;
+    margin:.05rem 0;
+}
+.content .container figure a{
+    display: block;
+    color: #000;
+}
+.content .container img{
+    width: 1.43rem;
+    height: 1.07rem;
+}
+
+/*商品展示*/
+.content .shop-show{
+    margin:0 .17rem;
+
+}
+.content .shop-show .shop{
+    margin:.21rem 0 .21rem;
+    padding: .32rem;
+    display: block;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #d3d3d3;
+    box-sizing: border-box;
+}
+.content .shop-show .shop .shop-left{
+    float: left;
+}
+.content .shop-show .shop .shop-left h1{
+    font:bold .42rem '宋体',Arial, sans-serif;
+    color: #f04e92;
+    padding-top:.20rem;
+}
+.content .shop-show .shop .shop-left h3{
+    font:bold .27rem '宋体',Arial, sans-serif;
+    color: #3e3e3e;
+    border-bottom:1px solid #000;
+}
+.content .shop-show .shop .shop-left span{
+    color: #f04e92;
+}
+.content .shop-show .shop .shop-left span:first-of-type{
+    font-size: .60rem;
+}
+.content .shop-show .shop .shop-left p{
+    font:bold .26rem '宋体',Arial, sans-serif;
+    color:#818181;
+    line-height: .40rem;
+}
+.content .shop-show .shop .shop-right{
+    float: right;
+    width: 3.16rem;
+    height: 2.43rem;
+}
+.content .shop-show .shop .shop-right img{
+    width: 3.16rem;
+    height: 2.43rem;
+}
+/*清除浮动*/
+.content .shop-show .shop::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+/*第二件商品展示*/
+.content .shop-show .shop:last-of-type .shop-left h1,.content .shop-show .shop:last-of-type .shop-left span:first-of-type{
+    color: #66cee6;
+
+}
+

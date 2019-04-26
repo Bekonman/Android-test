@@ -1,0 +1,130 @@
+/*左边列表*/
+table{
+    width: 100%;
+}
+table tr td{
+    vertical-align: top;
+}
+.msg-left{
+    width: 30%;
+}
+.msg-left li{
+    display: block;
+    width: 100%;
+    height: .93rem;
+}
+.msg-left a{
+    display: block;
+    text-align: center;
+}
+.msg-left p{
+    display: block;
+    font: .30rem "微软雅黑",Arial, sans-serif;
+    color: #3c3c3c;
+    background-color: #f8f8f8;
+    border-bottom:.03rem solid #d4d4d4;
+    width: 100%;
+    height: .93rem;
+    line-height: .93rem;
+}
+.msg-left p:hover{
+    background-color: #fff;
+    border-left:.05rem solid #fece02;
+    box-sizing: border-box;
+}
+
+/*右边商品*/
+.msg-right{
+    position: relative;
+}
+.msg-right .title{
+    height: .46rem;
+    width: 100%;
+    font: .30rem "微软雅黑", Arial, sans-serif;
+    color: #565656;
+    background-color: #f8f8f8;
+}
+.msg-right .shop {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+/*清除浮动*/
+.msg-right .shop::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+    /*左边图片*/
+.msg-right .shop .shop-left{
+    float: left;
+    height: 2.03rem;
+    margin-left:.25rem;
+    box-sizing: border-box;
+}
+.msg-right .shop .shop-left img{
+    width: 1.71rem;
+    height: 1.68rem;
+}
+    /*右边信息*/
+.msg-right .shop .shop-right{
+    position: relative;
+    float: left;
+    padding-top: .24rem;
+}
+.msg-right .shop .shop-right p:nth-child(1){
+    position: relative;
+    font:bold .28rem "宋体",Arial, sans-serif;
+    color: #404040;
+    padding-left: .56rem;
+}
+.msg-right .shop .shop-right p:nth-child(1)::before{
+    content: '精选';
+    position: absolute;
+    font: .23rem "宋体",Arial, sans-serif;
+    color: #ff4100;
+    width: .50rem;
+    height: .34rem;
+    border: .02rem solid #ff4100;
+    border-radius: .1rem;
+    line-height:.34rem;
+    box-sizing: border-box;
+    left: 0;
+    top: -0.05rem;
+}
+
+.msg-right .shop .shop-right p:nth-child(2){
+    margin:.05rem 0;
+    width: 1rem;
+    height: .42rem;
+    border-radius: 0.08rem;
+    background-color: #f85252;
+    color: #FFFFFF;
+    font:bold .22rem "宋体",Arial, sans-serif;
+    line-height:.42rem;
+    text-align: center;
+}
+.msg-right .shop .shop-right p:nth-child(3){
+    font: .30rem "微软雅黑",Arial, sans-serif;
+    color: #929091;
+}
+.msg-right .shop .shop-right p:nth-child(4){
+    font: .36rem "微软雅黑",Arial, sans-serif;
+    color: #ff4100;
+}
+.msg-right .shop .shop-right span{
+    display: block;
+    position: absolute;
+    width: .62rem;
+    height: .62rem;
+    border-radius: 50%;
+    color: #ff4100;
+    font: .36rem "微软雅黑",Arial, sans-serif;
+    border: .02rem solid #dfdfdf;
+    text-align: center;
+    line-height:.55rem;
+    bottom: .24rem;
+    right: .15rem;
+
+}
+
