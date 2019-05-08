@@ -127,4 +127,9 @@ table tr td{
     right: .15rem;
 
 }
-
+.msg-right .msg-detail{
+    display: none;
+}
+.msg-right .cur{
+    display: block;
+}
